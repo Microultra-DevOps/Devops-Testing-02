@@ -1,0 +1,31 @@
+/* Default Light Mode */
+body {
+  transition: background 0.3s, color 0.3s;
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Dark Mode for Components */
+.dark-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+.dark-form input,
+.dark-form textarea {
+  background-color: #222;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+.dark-form input::placeholder,
+.dark-form textarea::placeholder {
+  color: #bbb;
+}
